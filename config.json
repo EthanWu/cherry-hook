@@ -1,12 +1,12 @@
 {
-	"port": 8888,
+	"port": 7272,
 	"scripts": {
-		"push-task": ["./scripts/test.sh", "./scripts/test2.sh"]
+	"push-task": ["./scripts/deploy.sh"]	
 	},
 	"items": [
 		[
 			{
-				"name": "githooktest",
+				"name": "jackfruit-server",
 				"branch": "master",
 				"actions": {
 					"push": "push-task"
